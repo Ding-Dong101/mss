@@ -1,0 +1,68 @@
+/* -------- Misselinous ------------ */
+.bold {
+  font-weight: 700;
+  /* padding: 4px; */
+}
+.btn {
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #212529;
+}
+.profile-container {
+  border-radius: 0 0 10px 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffd53b;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+.profile img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 2px solid #fff;
+}
+.notification-btn {
+  border: solid 1px #000;
+  border-radius: 50%;
+  background-color: #00000000;
+}
+.money {
+  font-size: 28px;
+}
+.account {
+  margin-bottom: 18px;
+}
+.quick-actions {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+}
+.action-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+
+  margin-right: 10px;
+  cursor: pointer;
+}
