@@ -1,12 +1,13 @@
 import React from "react";
-import { Bell, Plus, Send, ThreeDots } from "react-icons/fa";
+import { FaBell } from "react-icons/fa";
 import "../css/profile.css";
 
 let userImage = "http://picsum.photos/50/50";
 let userName = "John Doe";
-let accountBalance = 5000.0;
-let WithdrawableAmount = 4000.0;
+let accountBalance = 5000.05;
+let WithdrawableAmount = 4000.02;
 let nationality = "🇬🇭";
+
 export default function Profile() {
   return (
     <>
@@ -22,7 +23,7 @@ export default function Profile() {
             </div>
           </div>
           <button className="notification-btn btn">
-            <Bell size={24} />
+            <FaBell size={24} />
           </button>
         </div>
         <div className="account-details">
@@ -35,18 +36,6 @@ export default function Profile() {
             <p className="bold money">{"GHC " + WithdrawableAmount}</p>
           </div>
         </div>
-      </div>
-      <div className="quick-actions">
-        <button className="action-btn btn">
-          <Plus size={24} />
-        </button>
-        <button className="action-btn btn">
-          <Send size={24} />
-        </button>
-
-        <button className="action-btn btn">
-          <ThreeDots size={24} />
-        </button>
       </div>
     </>
   );

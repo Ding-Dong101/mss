@@ -15,8 +15,9 @@
 body {
   background-color: #212529;
 }
+
 .profile-container {
-  border-radius: 0 0 10px 10px;
+  border-radius: 0 0 20px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #ffd53b;
   padding: 20px;
@@ -47,22 +48,4 @@ body {
 }
 .account {
   margin-bottom: 18px;
-}
-.quick-actions {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: row;
-  justify-self: center;
-  align-items: center;
-  justify-content: space-between;
-  width: 60vw;
-}
-.action-btn {
-  background-color: #000;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-
-  margin-right: 10px;
-  cursor: pointer;
 }
