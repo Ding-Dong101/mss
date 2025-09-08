@@ -3,12 +3,12 @@ function PackageItem() {
   return (
     <>
       <div className="item">
-        <div className="itemImg">
-          <img src={item_img} alt="package imaage" />
+        <div>
+          <img src={item_img} alt="package" className="itemImg" />
         </div>
         <div className="itemDetails">
-          <h3 className="itemName">Package Name</h3>
-          <p className="itemDescription">Lorem, ipsum dolor sit amet </p>
+          <h3 className="itemName">Package</h3>
+          <p className="itemDescription">Lorem, ipsum dolor </p>
         </div>
       </div>
     </>

@@ -8,31 +8,39 @@
 }
 .item {
   height: 150px;
-  width: 150px;
+  min-width: 100px;
   display: flex;
   flex-direction: column;
   justify-self: center;
   gap: 2px;
+  padding-bottom: 4px;
+  overflow: hidden;
 
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 8px;
   background-color: rgb(182, 182, 182);
 }
+.item:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.2s;
+}
 .itemImg {
-  height: 100px;
-  width: 100px;
+  height: 70px;
+  width: 70px;
   border-radius: 8px;
   object-fit: cover;
   align-self: center;
 }
-itemDetails {
+/* .itemDetails {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   gap: 4px;
-}
+} */
 .itemName {
   font-size: 18px;
   font-weight: 600;
